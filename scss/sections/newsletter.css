@@ -1,1 +1,57 @@
-/* No CSS *//*# sourceMappingURL=newsletter.css.map */
+.newsletter {
+  position: relative;
+}
+
+.newsletter .container img {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.newsletter .container .newsletter-content {
+  width: 45%;
+  margin-left: 10px;
+  padding-top: 120px;
+  position: relative;
+  z-index: 1;
+}
+
+.newsletter .container .newsletter-content h2 {
+  font-weight: bold;
+}
+
+.newsletter .container .newsletter-content p {
+  font-size: small;
+}
+
+.newsletter .container form {
+  margin-bottom: 120px;
+  margin-left: 10px;
+}
+
+.newsletter .container form input {
+  display: inline-block;
+  padding: 10px 70px 10px 5px;
+  width: 50%;
+  border: 1px solid black;
+  margin-right: 10px;
+}
+
+.newsletter .container form button {
+  display: inline-block;
+  text-transform: uppercase;
+  background-color: #96b92c;
+  padding: 10px 20px;
+  border: 1px solid #96b92c;
+  color: white;
+}
+
+.newsletter .container form button:hover {
+  background-color: #b7e42e;
+  -webkit-transition: all ease-in-out 250ms;
+  transition: all ease-in-out 250ms;
+  cursor: pointer;
+}
+/*# sourceMappingURL=newsletter.css.map */

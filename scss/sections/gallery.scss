@@ -1,0 +1,95 @@
+.gallery {
+  background-color: #ffe92f;
+  .container {
+    text-align: center;
+    padding: 30px;
+    .gallery-content {
+      display: grid;
+      width: 100%;
+      grid-gap: 20px;
+      grid-template-rows: repeat(12, 1fr);
+      grid-template-columns: repeat(12, 1fr);
+      min-height: 900px;
+      .item {
+        background: black;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        // border: 1px solid red;
+      }
+      .item-one {
+        grid-row: span 8;
+        grid-column: span 9;
+        background: url('../../pics/gallery/1.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+      }
+      .item-two {
+        grid-row: span 4;
+        grid-column: span 3;
+        background: url('../../pics/gallery/2.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+      }
+      .item-three {
+        grid-row: span 4;
+        grid-column: span 3;
+        background: url('../../pics/gallery/3.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+      }
+      .item-four {
+        grid-row: span 4;
+        grid-column: span 6;
+        background: url('../../pics/gallery/4.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+      }
+      .item-five {
+        grid-row: span 4;
+        grid-column: span 6;
+        background: url('../../pics/gallery/5.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+      }
+    }
+    h1 {
+      font-size: 80px;
+      // text-transform: uppercase;
+      font-weight: bold;
+      color: black;
+      margin-top: 100px;
+    }
+    p {
+      color: black;
+      font-size: small;
+      margin: 40px auto;
+      width: 40%;
+    }
+    a {
+      text-decoration: none;
+      button {
+        color: white;
+        padding: 10px 30px;
+        margin: 50px 0 100px 0;
+        background: #5585a2;
+        text-transform: uppercase;
+        -webkit-box-shadow: -1px 1px 2px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: -1px 1px 2px 0px rgba(0, 0, 0, 0.75);
+        box-shadow: -1px 1px 2px 0px rgba(0, 0, 0, 0.75);
+        cursor: pointer;
+        border: none;
+        &:hover {
+          background: #5ea5d0;
+          transition: all ease-in-out 250ms;
+        }
+      }
+    }
+  }
+}

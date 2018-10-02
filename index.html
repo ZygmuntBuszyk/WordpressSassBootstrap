@@ -62,10 +62,10 @@
   <section class="about">
     <div class="container">
       <div class="row">
-        <div class="col about-image">
+        <div class="col-sm-6 about-image">
           <img src="/pics/about/About-TeaCup.png" alt="" class="about-image">
         </div>
-        <div class="col about-text">
+        <div class="col-sm-6 about-text">
           <h1>About Us</h1>
           <p>Abore Cahee magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
             aliquip ex
@@ -83,31 +83,57 @@
   <!-- Services -->
   <section class="services">
     <div class="container">
-      <div class="service">
-        <p>Online Shopping</p>
-        <div class="icon cart"></div>
-      </div>
-      <div class="service">
-        <div class="service">
-          <p>Quality Product</p>
-          <div class="icon plant"></div>
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="service">
+            <div class="row align-items-center">
+              <div class="col-9">
+                <p>Online Shopping</p>
+              </div>
+              <div class="col-3">
+                <img src="/pics/services/icon-shop.png" alt="" class="icon cart">
+              </div>
+            </div>
+          </div>
+          <div class="service">
+            <div class="row align-items-center">
+              <div class="col-9">
+                <p>Quality Product</p>
+              </div>
+              <div class="col-3">
+                <img src="/pics/services/icon-shop.png" alt="" class="icon cart">
+              </div>
+            </div>
+          </div>
+          <div class="service">
+            <div class="row align-items-center">
+              <div class="col-9">
+                <p class="qwe">Domestic & International Delivery</p>
+              </div>
+              <div class="col-3">
+                <img src="/pics/services/icon-shop.png" alt="" class="icon cart">
+              </div>
+            </div>
+          </div>
+          <div class="service">
+            <div class="row align-items-center">
+              <div class="col-9">
+                <p>Well Organized</p>
+              </div>
+              <div class="col-3">
+                <img src="/pics/services/icon-shop.png" alt="" class="icon cart">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="services-image col-6 ">
+          <h1>Our Services</h1>
+          <img src="/pics/services/Services-Tommatoes.png" alt="" class="s-i">
+
         </div>
       </div>
-      <div class="service">
-        <div class="service">
-          <p>Domestic & International Delivery</p>
-          <div class="icon globe"></div>
-        </div>
-      </div>
-      <div class="service">
-        <div class="service">
-          <p>Well Organized</p>
-          <div class="icon carrot"></div>
-        </div>
-      </div>
-      <div class="services-image">
-        <h1>Our Services</h1>
-      </div>
+
+    </div>
     </div>
     </div>
   </section>
@@ -118,53 +144,70 @@
       <p>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
         minim veniam,
         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      <div class="galery"></div>
-      <button>View More</button>
+      <div class="gallery-content">
+        <div class="item item-one"></div>
+        <div class="item item-two"></div>
+        <div class="item item-three"></div>
+        <div class="item item-four"></div>
+        <div class="item item-five"></div>
+      </div>
+      <a href="#"><button>View More</button></a>
     </div>
   </section>
   <!-- Newsletter -->
   <section class="newsletter">
     <div class="container">
       <div class="newsletter-content">
-        <h3>Subscribe To Us</h3>
-        <p>Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+        <h2>Subscribe To Us</h2>
+        <p>Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+          dolore magna
           aliqua.
           Ut enim ad minim veniam.</p>
-        <input type="text">
-        <button>Subscribe</button>
+
+
       </div>
+      <form>
+        <input action="email" placeholder="Your email address..">
+        <button type="submit" class="submitBtn">Subscribe</button>
+      </form>
+      <img src="/pics/newsletter/Newsletter-bg.png" alt="">
+
   </section>
   <!-- Blog -->
   <section class="blog">
-    <h1>Blog</h1>
-    <p>Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</p>
-    <div class="about-flex">
-      <div class="about-item-one">
-        <p class="date">20
-          <br>NOV</p>
-        <p class="blog-item-text">Green Smoothies: Too Much of a Good Thing?
-          <span>By Auskteez - 2 hours ago</span>
-        </p>
-      </div>
-      <div class="about-item-two">
-        <p class="date">14
-          <br>NOV</p>
-        <p class="blog-item-text">Growing Food and a “Thirst” for Innovation
+    <div class="container">
+      <h1>Blog</h1>
+      <p>Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+      <div class="about-flex">
+        <div class="row">
+          <div class="col blog-item  about-item-one">
+            <p class="date">20
+              <br>NOV</p>
+            <p class="blog-item-text">Green Smoothies: Too Much of a Good Thing?
+              <span>By Auskteez - 2 hours ago</span>
+            </p>
+          </div>
+          <div class="col blog-item about-item-two">
+            <p class="date">14
+              <br>NOV</p>
+            <p class="blog-item-text">Growing Food and a “Thirst” for Innovation
 
-          <span>By Auskteez - 3 hours ago</span>
-        </p>
-      </div>
-      <div class="about-item-three">
-        <p class="date">10
-          <br>NOV</p>
-        <p class="blog-item-text">Pesticides & Food: What You Need to Know
+              <span>By Auskteez - 3 hours ago</span>
+            </p>
+          </div>
+          <div class="col blog-item about-item-three">
+            <p class="date">10
+              <br>NOV</p>
+            <p class="blog-item-text">Pesticides & Food: What You Need to Know
 
-          <span>By Auskteez - 6 hours ago</span>
-        </p>
+              <span>By Auskteez - 6 hours ago</span>
+            </p>
+          </div>
+        </div>
+        <a href="#"><button>View More</button></a>
       </div>
-      <button>View More</button>
     </div>
   </section>
   <!-- Contact -->
@@ -172,33 +215,38 @@
     <div class="container">
       <h1>Contact</h1>
       <p>For new projects, ideas, business or anything you'd like to discuss, contact with me!</p>
-    </div>
-    <div class="row">
-      <div class="col-6">
-        <input type="text">
-        <input type="text">
-        <input type="text">
-        <textarea name="" id="" cols="30" rows="10"></textarea>
-      </div>
-      <div class="col-6">
-        <h5>address</h5>
-        <p>123 City name, Street, City, Country</p>
-        <h5>EMAIL</h5>
-        <p>email@email.com</p>
-        <h5>PHONE</h5>
-        <p>+012 345 6789</p>
+      <div class="row">
+        <div class="col input-area">
+          <form action="">
+            <input action="name" placeholder="Your name..">
+            <input action="email" placeholder="Your email..">
+            <input action="phone" placeholder="Your phone number..">
+            <textarea placeholder="Your message.." name="" id="" cols="30" rows="10"></textarea>
+          </form>
+
+        </div>
+        <div class="col contact-area">
+          <h5>address</h5>
+          <p class="text-address">123 City name, Street, City, Country</p>
+          <h5>email</h5>
+          <p class="text-address">email@email.com</p>
+          <h5>phone</h5>
+          <p class="text-address">123456789</p>
+        </div>
       </div>
     </div>
   </section>
   <!-- Footer -->
   <footer>
     <div class="container">
-      <div class="row">
-        <div class="col-4">
+      <div class="row align-items-center">
+        <div class="col">
           <p>&copy; 2018 Company All rights reserved</p>
         </div>
-        <div class="col-4 logo2"></div>
-        <div class="col-4">
+        <div class="col">
+          <img src="/pics/footer/logo2.png" alt="" class="logo2">
+        </div>
+        <div class="col">
           <p>Template coded by
             <a href="https://github.com/ZygmuntBuszyk">Zygmunt Buszyk</a>
           </p>

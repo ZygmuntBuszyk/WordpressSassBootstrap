@@ -1,4 +1,15 @@
 footer {
-  background: black;
+  background: #262626;
   padding: 20px;
+  color: #b9b9b9;
+  .container {
+    margin: 0 auto;
+    text-align: center;
+    p {
+      margin: 0;
+      a {
+        text-decoration: none;
+      }
+    }
+  }
 }

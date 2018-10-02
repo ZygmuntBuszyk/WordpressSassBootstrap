@@ -1,14 +1,16 @@
 header {
-  background-image: url('/pics/header/header.png');
+  // background-color: black;
+  background-color: white;
+  background-image: url('/pics/back.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  // background-color: black;
-  background-color: white;
+  background-attachment: fixed;
   height: 120vh;
   margin: 0;
   padding: 0;
   position: relative;
+
   .navigation {
     width: 100%;
     padding: 20px 10px;

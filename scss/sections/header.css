@@ -1,9 +1,10 @@
 header {
-  background-image: url("/pics/header/header.png");
+  background-color: white;
+  background-image: url("/pics/back.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-color: white;
+  background-attachment: fixed;
   height: 120vh;
   margin: 0;
   padding: 0;

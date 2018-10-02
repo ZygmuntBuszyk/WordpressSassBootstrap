@@ -1,1 +1,105 @@
-/* No CSS *//*# sourceMappingURL=blog.css.map */
+.blog {
+  background-color: #b07cf7;
+}
+
+.blog .container {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.blog .container h1 {
+  font-size: 80px;
+  font-weight: bold;
+  color: white;
+  padding-top: 100px;
+}
+
+.blog .container p {
+  color: white;
+  font-size: small;
+  margin: 40px auto;
+  width: 40%;
+}
+
+.blog .container .about-item-one {
+  background: url("../../pics/blog/Blog-img1.png");
+}
+
+.blog .container .about-item-two {
+  background: url("../../pics/blog/Blog-img2.png");
+}
+
+.blog .container .about-item-three {
+  background: url("../../pics/blog/blog-img3.png");
+}
+
+.blog .container .blog-item {
+  -webkit-box-shadow: inset 0px -60px 34px -21px rgba(0, 0, 0, 0.8);
+  box-shadow: inset 0px -60px 34px -21px rgba(0, 0, 0, 0.8);
+  margin: 10px;
+  position: relative;
+  min-width: 250px;
+  min-height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.blog .container .blog-item p.date {
+  width: 20%;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.295);
+  font-size: medium;
+  text-align: center;
+  float: left;
+  display: block;
+  margin: 15px;
+  color: white;
+}
+
+.blog .container .blog-item p.blog-item-text {
+  color: white;
+  width: 80%;
+  font-size: 16px;
+  text-align: left;
+  font-weight: bold;
+  color: white;
+  position: absolute;
+  bottom: -20px;
+  text-align: left;
+  left: 30px;
+}
+
+.blog .container .blog-item p.blog-item-who {
+  color: white;
+  font-size: 12px;
+}
+
+.blog .container .blog-item span {
+  font-size: 10px;
+  display: block;
+  font-weight: 100;
+}
+
+.blog .container a {
+  text-decoration: none;
+}
+
+.blog .container a button {
+  color: white;
+  padding: 10px 30px;
+  margin: 50px 0 100px 0;
+  background: #f72b3b;
+  text-transform: uppercase;
+  -webkit-box-shadow: -1px 1px 2px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px 1px 2px 0px rgba(0, 0, 0, 0.75);
+  cursor: pointer;
+  border: none;
+}
+
+.blog .container a button:hover {
+  background: #fd5c69;
+  -webkit-transition: all ease-in-out 250ms;
+  transition: all ease-in-out 250ms;
+}
+/*# sourceMappingURL=blog.css.map */
