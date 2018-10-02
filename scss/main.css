@@ -28,11 +28,12 @@ header .navigation .logo {
 
 header .navigation nav {
   float: right;
-  margin: 20px 10px;
 }
 
 header .navigation nav ul {
   list-style-type: none;
+  margin-top: 0;
+  padding-top: 20px;
 }
 
 header .navigation nav ul a {
