@@ -1,0 +1,29 @@
+@import 'sections/header';
+@import 'sections/about';
+@import 'sections/blog';
+@import 'sections/contact';
+@import 'sections/gallery';
+@import 'sections/newsletter';
+@import 'sections/services';
+@import 'sections/footer';
+
+*,
+*::before ::after {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  // color: inherit;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  overflow-x: hidden;
+}
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}

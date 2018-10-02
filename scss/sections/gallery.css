@@ -1,0 +1,110 @@
+.gallery {
+  background-color: #ffe92f;
+}
+
+.gallery .container {
+  text-align: center;
+  padding: 30px;
+}
+
+.gallery .container .gallery-content {
+  display: -ms-grid;
+  display: grid;
+  width: 100%;
+  grid-gap: 20px;
+  -ms-grid-rows: (1fr)[12];
+      grid-template-rows: repeat(12, 1fr);
+  -ms-grid-columns: (1fr)[12];
+      grid-template-columns: repeat(12, 1fr);
+  min-height: 900px;
+}
+
+.gallery .container .gallery-content .item {
+  background: black;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.gallery .container .gallery-content .item-one {
+  grid-row: span 8;
+  grid-column: span 9;
+  background: url("../../pics/gallery/1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.gallery .container .gallery-content .item-two {
+  grid-row: span 4;
+  grid-column: span 3;
+  background: url("../../pics/gallery/2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.gallery .container .gallery-content .item-three {
+  grid-row: span 4;
+  grid-column: span 3;
+  background: url("../../pics/gallery/3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.gallery .container .gallery-content .item-four {
+  grid-row: span 4;
+  grid-column: span 6;
+  background: url("../../pics/gallery/4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.gallery .container .gallery-content .item-five {
+  grid-row: span 4;
+  grid-column: span 6;
+  background: url("../../pics/gallery/5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.gallery .container h1 {
+  font-size: 80px;
+  font-weight: bold;
+  color: black;
+  margin-top: 100px;
+}
+
+.gallery .container p {
+  color: black;
+  font-size: small;
+  margin: 40px auto;
+  width: 40%;
+}
+
+.gallery .container a {
+  text-decoration: none;
+}
+
+.gallery .container a button {
+  color: white;
+  padding: 10px 30px;
+  margin: 50px 0 100px 0;
+  background: #5585a2;
+  text-transform: uppercase;
+  -webkit-box-shadow: -1px 1px 2px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px 1px 2px 0px rgba(0, 0, 0, 0.75);
+  cursor: pointer;
+  border: none;
+}
+
+.gallery .container a button:hover {
+  background: #5ea5d0;
+  -webkit-transition: all ease-in-out 250ms;
+  transition: all ease-in-out 250ms;
+}
+/*# sourceMappingURL=gallery.css.map */

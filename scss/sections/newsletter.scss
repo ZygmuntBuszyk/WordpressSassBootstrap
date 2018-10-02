@@ -1,0 +1,53 @@
+.newsletter {
+  position: relative;
+  .container {
+    // position: relative;
+    img {
+      position: absolute;
+      width: 100%;
+      // height: 100%;
+      top: 0;
+      // top: 50%;
+      // transform: translate(-50%, -50%);
+      right: 0;
+      z-index: -1;
+    }
+    .newsletter-content {
+      width: 45%;
+      margin-left: 10px;
+      padding-top: 120px;
+      position: relative;
+      z-index: 1;
+      h2 {
+        font-weight: bold;
+      }
+      p {
+        font-size: small;
+      }
+    }
+    form {
+      margin-bottom: 120px;
+      margin-left: 10px;
+      input {
+        display: inline-block;
+        padding: 10px 70px 10px 5px;
+        width: 50%;
+        border: 1px solid black;
+        margin-right: 10px;
+      }
+      button {
+        display: inline-block;
+        text-transform: uppercase;
+        background-color: #96b92c;
+        padding: 10px 20px;
+        border: 1px solid #96b92c;
+        color: white;
+        &:hover {
+          background-color: #b7e42e;
+          transition: all ease-in-out 250ms;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
