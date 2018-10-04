@@ -1,6 +1,6 @@
 header {
   background-color: white;
-  background-image: url("/pics/back.png");
+  background-image: url("./../pics/back.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -17,7 +17,7 @@ header .navigation {
 }
 
 header .navigation .logo {
-  background-image: url("/pics/header/logo1.png");
+  background-image: url("./../pics/header/logo1.png");
   float: left;
   background-repeat: no-repeat;
   width: 150px;
@@ -155,15 +155,15 @@ header .scroll {
 }
 
 .blog .container .about-item-one {
-  background: url("../../pics/blog/Blog-img1.png");
+  background: url("./../pics/blog/Blog-img1.png");
 }
 
 .blog .container .about-item-two {
-  background: url("../../pics/blog/Blog-img2.png");
+  background: url("./../pics/blog/Blog-img2.png");
 }
 
 .blog .container .about-item-three {
-  background: url("../../pics/blog/blog-img3.png");
+  background: url("./../pics/blog/blog-img3.png");
 }
 
 .blog .container .blog-item {
@@ -237,7 +237,7 @@ header .scroll {
 }
 
 .contact {
-  background: url("/pics/contact/contact bg.png");
+  background: url("./../pics/contact/contact bg.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -387,7 +387,7 @@ header .scroll {
 .gallery .container .gallery-content .item-one {
   grid-row: span 8;
   grid-column: span 9;
-  background: url("../../pics/gallery/1.jpg");
+  background: url("./../pics/gallery/1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -396,7 +396,7 @@ header .scroll {
 .gallery .container .gallery-content .item-two {
   grid-row: span 4;
   grid-column: span 3;
-  background: url("../../pics/gallery/2.jpg");
+  background: url("./../pics/gallery/2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -405,7 +405,7 @@ header .scroll {
 .gallery .container .gallery-content .item-three {
   grid-row: span 4;
   grid-column: span 3;
-  background: url("../../pics/gallery/3.jpg");
+  background: url("./../pics/gallery/3.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -414,7 +414,7 @@ header .scroll {
 .gallery .container .gallery-content .item-four {
   grid-row: span 4;
   grid-column: span 6;
-  background: url("../../pics/gallery/4.jpg");
+  background: url("./../pics/gallery/4.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -423,7 +423,7 @@ header .scroll {
 .gallery .container .gallery-content .item-five {
   grid-row: span 4;
   grid-column: span 6;
-  background: url("../../pics/gallery/5.jpg");
+  background: url("./../pics/gallery/5.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

@@ -1,5 +1,5 @@
 .contact {
-  background: url("/pics/contact/contact bg.png");
+  background: url("./../pics/contact/contact bg.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

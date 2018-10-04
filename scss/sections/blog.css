@@ -22,15 +22,15 @@
 }
 
 .blog .container .about-item-one {
-  background: url("../../pics/blog/Blog-img1.png");
+  background: url("./../pics/blog/Blog-img1.png");
 }
 
 .blog .container .about-item-two {
-  background: url("../../pics/blog/Blog-img2.png");
+  background: url("./../pics/blog/Blog-img2.png");
 }
 
 .blog .container .about-item-three {
-  background: url("../../pics/blog/blog-img3.png");
+  background: url("./../pics/blog/blog-img3.png");
 }
 
 .blog .container .blog-item {

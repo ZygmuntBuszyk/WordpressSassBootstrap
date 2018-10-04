@@ -1,0 +1,22 @@
+{
+  "name": "bootstrapsasswordpress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d /"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZygmuntBuszyk/WordpressSassBootstrap.git"
+  },
+  "author": "Zygmunt Buszyk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZygmuntBuszyk/WordpressSassBootstrap/issues"
+  },
+  "homepage": "http://zygmuntbuszyk.github.io/WordpressSassBootstrap#readme",
+  "dependencies": {
+    "gh-pages": "^2.0.0"
+  }
+}

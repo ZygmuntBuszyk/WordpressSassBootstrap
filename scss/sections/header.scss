@@ -1,7 +1,7 @@
 header {
   // background-color: black;
   background-color: white;
-  background-image: url('/pics/back.png');
+  background-image: url('./../pics/back.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -16,7 +16,7 @@ header {
     padding: 20px 10px;
     // margin-bottom: 50px;
     .logo {
-      background-image: url('/pics/header/logo1.png');
+      background-image: url('./../pics/header/logo1.png');
       float: left;
       background-repeat: no-repeat;
       width: 150px;

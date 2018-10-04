@@ -30,7 +30,7 @@
 .gallery .container .gallery-content .item-one {
   grid-row: span 8;
   grid-column: span 9;
-  background: url("../../pics/gallery/1.jpg");
+  background: url("./../pics/gallery/1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -39,7 +39,7 @@
 .gallery .container .gallery-content .item-two {
   grid-row: span 4;
   grid-column: span 3;
-  background: url("../../pics/gallery/2.jpg");
+  background: url("./../pics/gallery/2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -48,7 +48,7 @@
 .gallery .container .gallery-content .item-three {
   grid-row: span 4;
   grid-column: span 3;
-  background: url("../../pics/gallery/3.jpg");
+  background: url("./../pics/gallery/3.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -57,7 +57,7 @@
 .gallery .container .gallery-content .item-four {
   grid-row: span 4;
   grid-column: span 6;
-  background: url("../../pics/gallery/4.jpg");
+  background: url("./../pics/gallery/4.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -66,7 +66,7 @@
 .gallery .container .gallery-content .item-five {
   grid-row: span 4;
   grid-column: span 6;
-  background: url("../../pics/gallery/5.jpg");
+  background: url("./../pics/gallery/5.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
